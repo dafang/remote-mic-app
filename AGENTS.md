@@ -198,13 +198,6 @@ G-BUG.real-acceptance=retained
 - Mac 预览版发布后必须下载公开稳定版归档，并通过固定候选 appcast 执行一次真实 Sparkle 安装更新，不能只运行 `--probe`。更新后必须验证版本、签名、公证、Sparkle helper 权限与链接、启动/再次启动以及无新增崩溃报告。
 - 预览版必须保持 Pre-release，固定候选 feed 不得改变稳定 feed；发布和验证期间 `releases/latest` 必须继续指向当前稳定版。
 
-## 研究与计划文档存放
-
-- 本项目的详细 research、plan、竞品分析、产品调研、可行性研究和长期实施方案统一写入私有仓库 `HD838A/private-marketing-toolkit`，本地路径为 `/Users/andy/Develop/Src/AISrc/marketing`。
-- 文档存放到私有仓库 `projects/remote-mic-app/` 下的对应工作流和版本目录。目录结构以私有仓库的 `AGENTS.md` 为准；本仓库不重复定义主题与版本的顺序。
-- 公开源码仓库不得新增包含详细研究过程、内部判断、市场材料或完整开发计划的 `Research/`、`research/`、`Plan/`、`plan/` 目录或同类文档。
-- 公开源码仓库的 `TODO.md`、README、技术文档和代码注释只保留实现所需的简短结论、公开行为、兼容边界和验证状态；需要详细内容时引用私有仓库中的对应文档，不复制全文。
-- 新建或更新研究、计划类文档时，必须同时确认其保存在私有仓库，并在交付说明中给出实际路径。
 
 ## iOS 仓库边界
 
